@@ -14,42 +14,44 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">iCoder</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item deactive">
-                        <a class="nav-link " aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/features.html">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pricing.html">Pricing</a>
-                    </li>
+    <div class="global-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand iCoder" href="#">iCoder</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item deactive">
+                            <a class="nav-link " aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/features.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pricing.html">Pricing</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contactus.html">Contact Us</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -61,21 +63,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./images/fisrt.avif" class="d-block w-100 img-fluid" alt="fist">
+                <img src="./images/first.jpg" class="d-block w-100 img-fluid" alt="fist">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/second.avif" class="d-block w-100 img-fluid" alt="second">
+                <img src="./images/second.jpg" class="d-block w-100 img-fluid" alt="second">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/third.avif" class="d-block w-100 img-fluid" alt="third">
+                <img src="./images/third.jpg" class="d-block w-100 img-fluid" alt="third">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
@@ -95,101 +97,90 @@
         </button>
     </div>
 
-    <div class="features">
-        <div class="d-flex flex-row flex-wrap justify-content-between">
-            <div class="col">
-                <div class="card h-100 my-4">
-                    <div class="card-header">
-                        Featured
-                    </div>
-
-                    <img src="./images/card1.avif" class="card-img-top img-fluid" alt="card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet optio ea,
-                            totam corrupti ex numquam cumque quos beatae ratione magnam quod aperiam rem veritatis,
-                            doloremque velit. Aut accusantium expedita quod laboriosam sit.</p>
-
-                        <div>
-                            <button type="button" class="btn btn-primary">Go Somewhere</button>
-                            <ul class="list-group">
-                                <li class="list-group-item">C</li>
-                                <li class="list-group-item">C++</li>
-                            </ul>
-                            <div class="card-body">
-                                <a href="card-link" class="card-link">Card link</a>
-                                <a href="card-link" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+    <!--cards-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
+        <!--card1-->
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Card Header
+                </div>
+                <img src="./images/card1.jpg" class="card-img-top" alt="first card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">sub title</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">1st list item</li>
+                    <li class="list-group-item">2nd list item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">
+                    Card footer
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100  my-4">
-                    <div class="card-header">
-                        Featured
-                    </div>
-                    <img src="./images/card2.avif" class="card-img-top img-fluid" alt="card2">
-                    <div class="card-body">
-
-                        <h5 class="card-title">Card title</h5>
-
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nihil
-                            nesciunt ut asperiores sit natus necessitatibus corrupti nam rerum, alias architecto
-                            repudiandae error quaerat quas consequatur eveniet laboriosam veritatis voluptate officiis.
-                            Pariatur.
-                        </p>
-                        <div><button type="button" class="btn btn-primary">Go Somewhere</button>
-                            <ul class="list-group">
-                                <li class="list-group-item">Java</li>
-                                <li class="list-group-item">Python</li>
-                            </ul>
-                            <div class="card-body">
-                                <a href="card-link" class="card-link">Card link</a>
-                                <a href="card-link" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+        </div>
+        <!--card2>-->
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Card Header
+                </div>
+                <img src="./images/card2.jpg" class="card-img-top" alt="second card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">sub title</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">1st list item</li>
+                    <li class="list-group-item">2nd list item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">
+                    Card footer
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100  my-4">
-                    <div class="card-header">
-                        Featured
-                    </div>
-                    <img src="./images/card3.avif" class="card-img-top img-fluid" alt="card2">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab
-                            incidunt, deserunt quia consectetur atque quae dicta eum, excepturi dolorem, porro
-                            repellendus ratione quam ipsum dolorum optio iure sint est placeat beatae?</p>
-                        <div><button type="button" class="btn btn-primary">Go Somewhere</button>
-                            <ul class="list-group">
-                                <li class="list-group-item">Frontend</li>
-                                <li class="list-group-item">Backend</li>
-                            </ul>
-                            <div class="card-body">
-                                <a href="card-link" class="card-link">Card link</a>
-                                <a href="card-link" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+        </div>
+        <!--card3-->
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    Card header
+                </div>
+                <img src="./images/card1.jpg" class="card-img-top" alt="third card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">sub title</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">1st list item</li>
+                    <li class="list-group-item">2nd list item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer">
+                    Card footer
                 </div>
             </div>
         </div>
     </div>
-
     <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
@@ -201,7 +192,8 @@
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                    <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                </div>
             </div>
         </div>
         <div class="accordion-item">
@@ -215,7 +207,8 @@
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
                     <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
-                    being filled with some actual content.</div>
+                    being filled with some actual content.
+                </div>
             </div>
         </div>
         <div class="accordion-item">
@@ -230,105 +223,230 @@
                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
                     <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
                     happening here in terms of content, but just filling up the space to make it look, at least at first
-                    glance, a bit more representative of how this would look in a real-world application.</div>
+                    glance, a bit more representative of how this would look in a real-world application.
+                </div>
             </div>
         </div>
     </div>
 
 
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-                <th scope="col">Links</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Manish</td>
-                <td>Gurve</td>
-                <td>github</td>
-                <td>
-                    <a href="#">Public</a>
-                    <a href="#">Edit</a>
-                    <a href="#">Delete</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Manish</td>
-                <td>Gurve</td>
-                <td>github</td>
-                <td>
-                    <a href="#">Public</a>
-                    <a href="#">Edit</a>
-                    <a href="#">Delete</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Manish</td>
-                <td>Gurve</td>
-                <td>github</td>
-                <td>
-                    <a href="#">Public</a>
-                    <a href="#">Edit</a>
-                    <a href="#">Delete</a>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">4</th>
-                <td>Manish</td>
-                <td>Gurve</td>
-                <td>github</td>
-                <td>
-                    <a href="#">Public</a>
-                    <a href="#">Edit</a>
-                    <a href="#">Delete</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-<h6>Form</h6>
-    <form>
-        <div class="row">
-            <div class="col-sm-6 my-2">
-              <input class="w-100 form-control" type="text" placeholder="First Name">
-            </div>
-            <div class="col-sm-6 my-2">
-              <input class="w-100 form-control" type="text" placeholder="Last Name">
-            </div>
-            <div class="col-12 my-2">
-              <input class="form-control" type="email" placeholder="Email">
-            </div>
-            <div class="col-12 my-2">
-              <input class="form-control" type="password" placeholder="Password">
-            </div>
-            <div class="col-12 my-2">
-              <input class="form-control" type="password" placeholder="Confirm Password">
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Submitform</button>
-       </div>
-      </form>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!--table-->
+<table class="table">
+    <thead >
+      <tr>
+        <th class="dip1">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+             </div>
+        </th>
+        <th scope="col" class="dip">Title </th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        <!--1strow>-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--2ndrow-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--3rdrow-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--4throw-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--5throw-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--6throw-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--7th-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--8throw-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--9throw-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+      <!--10throw-->
+      <tr>
+        <td><div class="input-text">
+            <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+          </div></td>
+        <td><span class="material-symbols-outlined">
+            drag_indicator
+            </span></td>
+        <td>Manish</td>
+        <td>Gurve</td>
+        <td>Github</td>
+        <td class="dip2">
+            <a href="#" src=" ">Publish  </a>
+            <a href="#" src=" ">Edit</a>
+            <a href="#" src=" ">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+</table>
+<!--form-->
+<h3>Bootstrap Form</h3>
+<form class="row g-3">
+    <div class="col-md-6 col-sm-12">
+      <input type="text" placeholder="First Name"class="form-control" id="firstname">
+    </div>
+    <div class="col-md-6 col-sm-12">
+       <input type="text" placeholder="Last Name" class="form-control" id="lastname">
+    </div>
+    <div class="col-12">
+      <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+    </div>
+    <div class="col-12">
+       <input type="text" class="form-control" id="inputAddress2" placeholder="Password">
+    </div>
+    <div class="col-12">
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Confirm Password">
+     </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit Form</button>
+    </div>
+  </form>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+    
 </body>
 
 </html>
